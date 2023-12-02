@@ -1,0 +1,49 @@
+.intro-card:hover .nav-btn {
+    opacity: 1 !important;
+}
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+  }
+  .focused {
+    color:chartreuse;
+    margin: 0 5px;
+    font-weight: bold;
+  }
+
+  .bullet-text {
+    margin: 0 10px;
+  }
+  .scroll-text {
+    display: inline-block;
+    animation: marquee 50s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+.btnPosition {
+    position: relative;
+    right: -79%;
+    top: 22px;
+  }
+  .profile {
+    padding: 25px;
+    width: max-content;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+/* Media Query */
+@media screen and (max-width: 600px) {
+    .btnPosition {
+        top:5px;
+        right: -83%;
+    }
+}
