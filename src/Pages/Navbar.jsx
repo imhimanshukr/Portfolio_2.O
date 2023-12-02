@@ -14,7 +14,7 @@ import {
   VStack,
   HStack,
 } from '@chakra-ui/react';
-import { FaBars, FaHome, FaUser, FaBriefcase, FaEnvelope } from 'react-icons/fa';
+import { FaBars, FaHome, FaUser, FaBriefcase, FaEnvelope, FaFileDownload   } from 'react-icons/fa';
 import { useMediaQuery } from 'react-responsive';
 import { ColorModeSwitcher } from '../ColorModeSwitcher';
 import { NavLink, useLocation } from 'react-router-dom';
@@ -141,6 +141,13 @@ const Navbar = () => {
                       </HStack>
                     </NavLink>
                   ))}
+                      <Box
+              className={`cvBtn ${
+                colorMode === 'dark' ? 'darkBtn' : 'lightBtn'
+              }`}
+            >
+              Download CV
+            </Box>
                 </VStack>
               </DrawerBody>
             </DrawerContent>
@@ -154,6 +161,7 @@ const Navbar = () => {
             >
               Download CV
             </Box>
+            <FaFileDownload  />
       <ColorModeSwitcher />
     </Flex>
   );

@@ -31,7 +31,6 @@ import vue from '../images/vue.png';
 import vuetify from '../images/vuetify.svg';
 import tailwind from '../images/tailwind.png';
 import chakra from '../images/chakra.png';
-import dp from '../images/Image.jpeg';
 import react from '../images/react.png';
 import { useMediaQuery } from 'react-responsive';
 import Aos from 'aos';
