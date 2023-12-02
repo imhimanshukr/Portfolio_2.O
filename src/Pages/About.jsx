@@ -13,6 +13,7 @@ import {
   StepSeparator,
   StepTitle,
   Stepper,
+  Link
 } from '@chakra-ui/react';
 import React, { useEffect } from 'react';
 import {
@@ -101,22 +102,22 @@ const About = () => {
               style={{ filter: 'grayscale(0.5 )' }}
             />
             <HStack justifyContent={'center'} mt={6} mb={4}>
-              <a
+              <Link
                 href="https://www.linkedin.com/in/himanshu25k7/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
                 style={iconCss}
                 className="pointer"
               >
                 <FaLinkedin size={25} />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://github.com/imhimanshukr"
                 target="_blank"
                 style={iconCss}
                 className="pointer"
               >
                 <FaGithub size={25} />
-              </a>
+              </Link>
             </HStack>
             <NavLink
               className={`contactBtn ${
@@ -328,15 +329,15 @@ const About = () => {
                     boxShadow: '10px 10px 20px rgba(0, 0, 0, 0.1)',
                   }}
                 >
-                  <a
+                  <Link
                     href="https://www.linkedin.com/in/himanshu25k7/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                     target="_blank"
                   >
                     <FaLinkedin size={40} />
-                  </a>
-                  <a href="https://github.com/imhimanshukr" target="_blank">
+                  </Link>
+                  <Link href="https://github.com/imhimanshukr" target="_blank">
                     <FaGithub size={40} />
-                  </a>
+                  </Link>
                 </HStack>
                 <Image
                   src={icon2}

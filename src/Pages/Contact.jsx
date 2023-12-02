@@ -192,22 +192,22 @@ const Contact = () => {
               Social Info
             </Text>
             <HStack mt={4}>
-              <a
+              <Link
                 href="https://www.linkedin.com/in/himanshu25k7/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
                 style={iconCss}
                 className="pointer"
               >
                 <FaLinkedin size={25} />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://github.com/imhimanshukr"
                 target="_blank"
                 style={iconCss}
                 className="pointer"
               >
                 <FaGithub size={25} />
-              </a>
+              </Link>
             </HStack>
           </Box>
         )}
@@ -294,22 +294,22 @@ const Contact = () => {
               Social Info
             </Text>
             <HStack mt={4}>
-              <a
+              <Link
                 href="https://www.linkedin.com/in/himanshu25k7/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
                 style={iconCss}
                 className="pointer"
               >
                 <FaLinkedin size={25} />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://github.com/imhimanshukr"
                 target="_blank"
                 style={iconCss}
                 className="pointer"
               >
                 <FaGithub size={25} />
-              </a>
+              </Link>
             </HStack>
           </Box>
         )}

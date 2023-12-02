@@ -109,26 +109,26 @@ const Home = () => {
                       into seamless online experiences. Let's build the future
                       of the web together. */}
                       <ul style={{display: 'flex'}}>
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work 
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work 
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work 
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work 
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work 
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work 
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work 
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work 
                       </ul>             
                     </Text>
                   </div>
@@ -347,26 +347,26 @@ const Home = () => {
                       into seamless online experiences. Let's build the future
                       of the web together. */}
                       <ul style={{display: 'flex'}}>
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work 
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work 
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work 
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work
-                        <span class="bullet-text">•</span> Open To <span class="focused"> REMOTE </span> Work 
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work 
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work 
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work 
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work
+                        <span class="bullet-text">•</span> Open To <span className={colorMode === 'dark' ? 'focused' : 'dark-focused'}> REMOTE </span> Work 
                       </ul>             
                    </Text>
 

@@ -11,6 +11,11 @@
     margin: 0 5px;
     font-weight: bold;
   }
+  .dark-focused {
+    color: #4100ff;
+    margin: 0 5px;
+    font-weight: bold;
+  }
 
   .bullet-text {
     margin: 0 10px;
