@@ -67,7 +67,7 @@ const Navbar = () => {
   ];
 
   const drawerStyles = {
-    width: '150px',
+    width: '170px',
     bg: colorMode === 'dark' ? 'gray.800' : 'white',
   };
 
@@ -184,9 +184,13 @@ const Navbar = () => {
               )
             }
       <ColorModeSwitcher />
-      <Box ref={btnRef} colorScheme="teal" style={{marginLeft: '5px'}} onClick={onOpen}>
+      {
+        isMobile && (
+          <Box ref={btnRef} colorScheme="teal" style={{marginLeft: '5px'}} onClick={onOpen}>
             <FaBars />
           </Box>
+        )
+      }
     </Flex>
   );
 };

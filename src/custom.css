@@ -10,6 +10,9 @@
     -webkit-text-decoration: none !important;
     text-decoration: none !important;
 }
+.css-1ik4h6n:focus-visible, .css-1ik4h6n[data-focus-visible] {
+    box-shadow: none !important;
+}
 .radius-30 {
     border-radius: 30px !important;
 }
