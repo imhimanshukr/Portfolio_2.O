@@ -6,7 +6,9 @@ export const ColorModeSwitcher = props => {
   const { toggleColorMode } = useColorMode();
   const text = useColorModeValue('dark', 'light');
   const SwitchIcon = useColorModeValue(FaMoon, FaSun);
-
+  React.useEffect(() =>{
+    toggleColorMode('dark');
+  }, []);
   return (
     <IconButton
       size="md"

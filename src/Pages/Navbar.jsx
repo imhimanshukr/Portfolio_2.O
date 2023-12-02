@@ -13,6 +13,7 @@ import {
   useDisclosure,
   VStack,
   HStack,
+  Link,
 } from '@chakra-ui/react';
 import { FaBars, FaHome, FaUser, FaBriefcase, FaEnvelope, FaFileDownload   } from 'react-icons/fa';
 import { useMediaQuery } from 'react-responsive';
@@ -81,7 +82,9 @@ const Navbar = () => {
   return (
     <Flex align="center" py={4} mt={'2'}>
       <Flex justifyContent={'space-between'} w={'50%'}>
-        <Avatar name="Himanshu" bg={'white'} />
+        <NavLink to="/">
+          <Avatar name="Himanshu" bg={'white'} />
+        </NavLink>
         <Spacer />
         {!isMobile && (
           <Box
@@ -109,9 +112,6 @@ const Navbar = () => {
       <Spacer />
       {isMobile && (
         <Box>
-          <Box ref={btnRef} colorScheme="teal" onClick={onOpen}>
-            <FaBars />
-          </Box>
           <Drawer
             isOpen={isOpen}
             placement="left"
@@ -141,28 +141,52 @@ const Navbar = () => {
                       </HStack>
                     </NavLink>
                   ))}
-                      <Box
+                  <Link
               className={`cvBtn ${
-                colorMode === 'dark' ? 'darkBtn' : 'lightBtn'
+                colorMode === 'dark' ? 'darkBtnCV' : 'lightBtnCV'
               }`}
+              mt={'7px'}
+              href='https://drive.google.com/file/d/15bsH8kfw9diaSHpxkIAwQcUsWCfJth0S/view?pli=1'
+              download
+              target='_blank'
             >
               Download CV
-            </Box>
-                </VStack>
+            </Link>
+                            </VStack>
               </DrawerBody>
             </DrawerContent>
           </Drawer>
         </Box>
       )}
-                  <Box
-              className={`cvBtn ${
-                colorMode === 'dark' ? 'darkBtn' : 'lightBtn'
-              }`}
-            >
-              Download CV
-            </Box>
-            <FaFileDownload  />
+      {
+        !isMobile && (
+          <Link
+          className={`cvBtn ${
+            colorMode === 'dark' ? 'darkBtn' : 'lightBtn'
+          }`}
+          href='https://drive.google.com/file/d/15bsH8kfw9diaSHpxkIAwQcUsWCfJth0S/view?pli=1'
+          download
+          target='_blank'
+        >
+          Download CV
+        </Link>
+              )
+            }
+            {
+              isMobile && (
+                <Link
+                href='https://drive.google.com/file/d/15bsH8kfw9diaSHpxkIAwQcUsWCfJth0S/view?pli=1'
+                download
+                target='_blank'
+              >
+                <FaFileDownload  />
+              </Link>
+              )
+            }
       <ColorModeSwitcher />
+      <Box ref={btnRef} colorScheme="teal" style={{marginLeft: '5px'}} onClick={onOpen}>
+            <FaBars />
+          </Box>
     </Flex>
   );
 };

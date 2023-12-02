@@ -105,6 +105,28 @@
     right: 50px;
     width: 45px;
 }
+
+/* Navbar */
+.lightBtnCV{
+    background: white;
+    color: #303030 !important;
+    box-shadow: none;
+    border: 1px solid #303030;
+    font-size: 12px;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.darkBtnCV{
+    box-shadow: none;
+    font-size: 12px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background: transparent;
+    color: #fff !important;
+    border: 1px solid white;
+}
+
+
 @media screen and (max-width: 600px) {
     .contact-head {
         font-size: 27px;
