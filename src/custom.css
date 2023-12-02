@@ -6,6 +6,10 @@
 *{
     font-family: 'Inter', sans-serif;
 }
+.css-spn4bz:hover, .css-spn4bz[data-hover] {
+    -webkit-text-decoration: none !important;
+    text-decoration: none !important;
+}
 .radius-30 {
     border-radius: 30px !important;
 }
