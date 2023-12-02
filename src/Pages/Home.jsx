@@ -45,7 +45,7 @@ const Home = () => {
   }, []);
 
   return (
-    <Box mt={[4, 4, 4, '80px']}>
+    <Box mt={[5, 4, 4, '80px']}>
       {isMobile && (
         <div>
           <Stack
