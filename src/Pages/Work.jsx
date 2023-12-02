@@ -47,6 +47,14 @@ const Work = () => {
     },
     {
       tabId: 1,
+      language: 'Vue Js | Vuetify',
+      projectName: 'Portfolio (OLD)',
+      url: 'https://portfoliohms.netlify.app/',
+      thumbnail:
+        'https://i.ytimg.com/vi/TwYKwaEjJd4/maxresdefault.jpg',
+    },
+    {
+      tabId: 1,
       language: 'Html | CSS',
       projectName: 'Hospital',
       url: 'https://imhimanshukr.github.io/cityHospital/',
