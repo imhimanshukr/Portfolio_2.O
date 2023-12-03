@@ -19,7 +19,7 @@ import about from '../images/about.png';
 import './Home.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-//import dp from "../images/Image.jpeg";
+import dp from "../images/dp1.jpg";
 
 const Home = () => {
   const { colorMode } = useColorMode();
@@ -45,7 +45,7 @@ const Home = () => {
   }, []);
 
   return (
-    <Box mt={[5, 4, 4, '80px']}>
+    <Box mt={[4, 4, 4, '80px']}>
       {isMobile && (
         <div>
           <Stack
@@ -66,8 +66,9 @@ const Home = () => {
                   w="100%"
                 >
                   <Image
-                    src="https://bit.ly/dan-abramov"
-                    borderRadius="30px 0"
+                    src={dp}
+                    //src="https://bit.ly/dan-abramov"
+                    borderRadius="30px"
                     maxW={['100%', '100%', '50%']}
                     style={{ filter: 'grayscale(0.5 )' }}
                   />
@@ -309,7 +310,8 @@ const Home = () => {
                   w="100%"
                 >
                   <Image
-                    src="https://bit.ly/dan-abramov"
+                    src={dp}
+                    //src="https://bit.ly/dan-abramov"
                     borderRadius="30px 0"
                     maxW={['100%', '100%', '50%']}
                     style={{ filter: 'grayscale(0.5 )' }}

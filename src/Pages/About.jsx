@@ -33,6 +33,7 @@ import tailwind from '../images/tailwind.png';
 import chakra from '../images/chakra.png';
 import react from '../images/react.png';
 import { useMediaQuery } from 'react-responsive';
+import dp from "../images/dp1.jpg";
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { NavLink } from 'react-router-dom';
@@ -96,7 +97,8 @@ const About = () => {
         >
           <CardBody p={6} textAlign={'center'} m={'auto'}>
             <Image
-              src="https://bit.ly/dan-abramov"
+              src={dp}
+              //src="https://bit.ly/dan-abramov"
               borderRadius="30px"
               style={{ filter: 'grayscale(0.5 )' }}
             />
