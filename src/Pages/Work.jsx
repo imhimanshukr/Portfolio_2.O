@@ -56,14 +56,6 @@ const Work = () => {
     {
       tabId: 1,
       language: 'Html | CSS',
-      projectName: 'Hospital',
-      url: 'https://imhimanshukr.github.io/cityHospital/',
-      thumbnail:
-        'https://images.unsplash.com/photo-1538108149393-fbbd81895907?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80',
-    },
-    {
-      tabId: 1,
-      language: 'Html | CSS',
       projectName: 'Kovid-19',
       url: 'https://imhimanshukr.github.io/kovid-19/',
       thumbnail:
@@ -75,7 +67,7 @@ const Work = () => {
       projectName: 'Foodies',
       url: 'https://imhimanshukr.github.io/foodies/',
       thumbnail:
-        'https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg',
+      'https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg',
     },
     {
       tabId: 1,
@@ -83,7 +75,7 @@ const Work = () => {
       projectName: 'Oellfare',
       url: 'https://imhimanshukr.github.io/oellfare/',
       thumbnail:
-        'https://vrittifoundation.org/wp-content/uploads/2021/10/partnership-NGO-2.jpg',
+      'https://vrittifoundation.org/wp-content/uploads/2021/10/partnership-NGO-2.jpg',
     },
     {
       tabId: 2,
@@ -107,7 +99,15 @@ const Work = () => {
       language: 'Vue Js | Tailwind CSS',
       url: 'https://twitterhms.netlify.app/',
       thumbnail:
-        'https://global-uploads.webflow.com/5e157548d6f7910beea4e2d6/6304a2578abd315b18c8f6e9_twitter-logo.png',
+      'https://global-uploads.webflow.com/5e157548d6f7910beea4e2d6/6304a2578abd315b18c8f6e9_twitter-logo.png',
+    },
+    {
+      tabId: 1,
+      language: 'Html | CSS',
+      projectName: 'Hospital',
+      url: 'https://imhimanshukr.github.io/cityHospital/',
+      thumbnail:
+        'https://images.unsplash.com/photo-1538108149393-fbbd81895907?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80',
     },
     // {
     //     tabId: 4,
